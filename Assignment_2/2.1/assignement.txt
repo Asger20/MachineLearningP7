@@ -1,0 +1,31 @@
+In your own words, describe how to create a Regression model that would plot the relationship between the waistline and how many situps are accomplished:
+To create a regression model to plot the relationship between waistline and the number of situps accomplished using the Linnerud dataset in Scikit-learn, you can follow these steps:
+
+    Data Preparation:
+        Load the Linnerud dataset from Scikit-learn.
+        Extract the relevant data and target variables. In this case, 'Waist' will be your independent variable (feature), and 'Situps' will be the dependent variable (target).
+
+    Split Data:
+        Split your data into a training set and a test set. This will help you assess the model's performance.
+
+    Select a Regression Algorithm:
+        Choose a regression algorithm such as Linear Regression, Decision Tree Regression, or any other regression method that suits your data. You can use Scikit-learn's regression models for this purpose.
+
+    Model Training:
+        Fit the regression model to the training data. The model will learn the relationship between waistline and situps from the training set.
+
+    Prediction:
+        Use the trained model to make predictions on the test set. This will give you an idea of how well the model performs on new, unseen data.
+
+    Visualization:
+        Plot the actual situp values against the predicted situp values for the test data. This will allow you to visualize the relationship between waistline and situps as predicted by your regression model.
+
+    Evaluation:
+        Assess the model's performance using appropriate metrics such as Mean Squared Error (MSE) or R-squared to understand how well the model fits the data.
+
+    Interpretation:
+        Analyze the plot and the model's coefficients to draw conclusions about the relationship between waistline and situps. Are they positively or negatively correlated? What's the significance of this relationship?
+
+Remember to tweak and fine-tune the model as needed to achieve the best possible fit to the data. This process will help you visualize and understand the relationship between waistline and the number of situps accomplished based on the Linnerud dataset.
+
+What is the mean-squared error of your linear regression model? Does it improve when you use a polynomial regression? 
