@@ -1,0 +1,3 @@
+In the lesson, you used a subset of the pumpkin data. 
+Now, go back to the original data and try to use all of it, cleaned and standardized, to build a Logistic Regression model in a Jupyter notebook. 
+Evaluate your model by a confusion matrix: remember to calculate and visualize the ROC curve. Aim for a well-explained and well-performing model in your notebook.
