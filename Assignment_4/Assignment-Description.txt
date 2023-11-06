@@ -1,0 +1,5 @@
+Recommended Steps (you can use pycaret.clustering if you wish)
+1. Choose a dataset from pycaret.datasets or kaggle.com. 
+2. Preprocess the data as needed. 
+3. Use K-Means or t-SNE to cluster the data. 
+4. Discuss your findings. 
